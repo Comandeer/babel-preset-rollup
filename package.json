@@ -1,0 +1,62 @@
+{
+  "name": "@comandeer/babel-preset-rollup",
+  "version": "1.0.0",
+  "description": "Evergreen Babel preset for rollup",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js test.js",
+    "pretest": "npm run lint",
+    "test": "mocha test.js",
+    "preversion": "npm test && git add -f dist/",
+    "postversion": "git push origin && git push origin --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Comandeer/babel-preset-rollup.git"
+  },
+  "keywords": [
+    "babel-preset",
+    "rollup"
+  ],
+  "author": "Comandeer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Comandeer/babel-preset-rollup/issues"
+  },
+  "homepage": "https://github.com/Comandeer/babel-preset-rollup#readme",
+  "commitplease": {
+    "style": "angular",
+    "types": [
+      "feat",
+      "fix",
+      "docs",
+      "style",
+      "refactor",
+      "perf",
+      "test",
+      "build",
+      "ci",
+      "chore",
+      "revert"
+    ],
+    "scope": "\\S+.*"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "commitplease": "^2.7.10",
+    "cz-conventional-changelog": "^2.0.0",
+    "eslint": "^4.6.0",
+    "in-publish": "^2.0.0",
+    "mocha": "^3.5.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.6.0"
+  }
+}
