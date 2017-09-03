@@ -1,6 +1,6 @@
 {
   "name": "@comandeer/babel-preset-rollup",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Evergreen Babel preset for rollup",
   "main": "index.js",
   "scripts": {
