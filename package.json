@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/Comandeer/babel-preset-rollup#readme",
   "commitplease": {
+  	"nohook": true,
     "style": "angular",
     "types": [
       "feat",
