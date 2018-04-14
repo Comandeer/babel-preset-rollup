@@ -7,7 +7,7 @@ module.exports = {
 			envPreset,
 			{
 				targets: {
-					node: '4.0.0'
+					node: '6.0.0'
 				},
 				modules: false
 			}
