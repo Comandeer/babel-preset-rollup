@@ -15,8 +15,10 @@ function testBabel( code, expected ) {
 }
 
 describe( 'babel-preset-rollup', () => {
-	it( 'transforms correctly ES2015 non-modules features', () => {
-		testBabel( '() => {};', '(function () {});' );
+	it( 'does not transform ES2015 non-modules features', () => {
+		const arrowFn = '() => {};';
+
+		testBabel( arrowFn, arrowFn );
 	} );
 
 	it( 'transforms correctly ES2016 non-modules features', () => {
@@ -24,7 +26,7 @@ describe( 'babel-preset-rollup', () => {
 	} );
 
 	it( 'transforms correctly ES2017 non-modules features', () => {
-		testBabel( 'async () => {}' );
+		testBabel( 'async () => {};' );
 	} );
 
 	it( 'does not transform imports or exports', () => {
