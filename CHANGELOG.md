@@ -5,7 +5,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
-## [3.0.0]
+## [3.0.0] – 2018-06-23
 ### Added
 * [#13] Add support for Node 10.
 
@@ -23,5 +23,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 [#6]: https://github.com/Comandeer/babel-preset-rollup/issues/6
 [#13]: https://github.com/Comandeer/babel-preset-rollup/issues/13
 
-[2.0.0]: https://github.com/Comandeer/babel-preset-rollup/compare/v1.0.0...v2.0.0
 [3.0.0]: https://github.com/Comandeer/babel-preset-rollup/compare/v2.0.0...v3.0.0
+[2.0.0]: https://github.com/Comandeer/babel-preset-rollup/compare/v1.0.0...v2.0.0
