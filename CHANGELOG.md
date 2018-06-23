@@ -5,6 +5,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
+## [3.0.0]
+### Added
+* [#13] Add support for Node 10.
+
+### Removed
+* [#13] **BREAKING CHANGE**: remove support for unstable Node releases (7, 9).
 
 ## [2.0.0] – 2018-04-14
 ### Removed
@@ -15,4 +21,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 * First working version, yay!
 
 [#6]: https://github.com/Comandeer/babel-preset-rollup/issues/6
+[#13]: https://github.com/Comandeer/babel-preset-rollup/issues/13
+
 [2.0.0]: https://github.com/Comandeer/babel-preset-rollup/compare/v1.0.0...v2.0.0
+[3.0.0]: https://github.com/Comandeer/babel-preset-rollup/compare/v2.0.0...v3.0.0
