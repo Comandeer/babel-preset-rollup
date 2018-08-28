@@ -1,4 +1,4 @@
-const transform = require( 'babel-core' ).transform;
+const transform = require( '@babel/core' ).transform;
 const chai = require( 'chai' );
 const preset = require( './' );
 

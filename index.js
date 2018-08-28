@@ -1,5 +1,5 @@
-const envPreset = require( 'babel-preset-env' );
-const helpers = require( 'babel-plugin-external-helpers' );
+const envPreset = require( '@babel/preset-env' );
+const helpers = require( '@babel/plugin-external-helpers' );
 
 module.exports = {
 	presets: [
