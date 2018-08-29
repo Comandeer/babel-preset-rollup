@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [5.0.0] – 2018-08-29
+### Removed
+* [#18] **BREAKING CHANGE**: remove `@babel/plugin-external-helpers`.
+
 ## [4.0.0] – 2018-08-28
 ### Added
 * [#16] Added support for Babel 7.
@@ -31,7 +35,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 [#6]: https://github.com/Comandeer/babel-preset-rollup/issues/6
 [#13]: https://github.com/Comandeer/babel-preset-rollup/issues/13
 [#16]: https://github.com/Comandeer/babel-preset-rollup/issues/16
+[#18]: https://github.com/Comandeer/babel-preset-rollup/issues/18
 
-[3.0.0]: https://github.com/Comandeer/babel-preset-rollup/compare/v3.0.0...v4.0.0
+[5.0.0]: https://github.com/Comandeer/babel-preset-rollup/compare/v4.0.0...v5.0.0
+[4.0.0]: https://github.com/Comandeer/babel-preset-rollup/compare/v3.0.0...v4.0.0
 [3.0.0]: https://github.com/Comandeer/babel-preset-rollup/compare/v2.0.0...v3.0.0
 [2.0.0]: https://github.com/Comandeer/babel-preset-rollup/compare/v1.0.0...v2.0.0
