@@ -1,5 +1,4 @@
 const envPreset = require( '@babel/preset-env' );
-const helpers = require( '@babel/plugin-external-helpers' );
 
 module.exports = {
 	presets: [
@@ -12,9 +11,5 @@ module.exports = {
 				modules: false
 			}
 		]
-	],
-
-	plugins: [
-		helpers
 	]
 };
