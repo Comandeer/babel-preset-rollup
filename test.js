@@ -21,12 +21,22 @@ describe( 'babel-preset-rollup', () => {
 		testBabel( arrowFn, arrowFn );
 	} );
 
-	it( 'transforms correctly ES2016 non-modules features', () => {
-		testBabel( '1 ** 1', 'Math.pow(1, 1);' );
+	it( 'does not transform ES2016 non-modules features', () => {
+		const pow = '1 ** 1;';
+
+		testBabel( pow, pow );
 	} );
 
-	it( 'transforms correctly ES2017 non-modules features', () => {
-		testBabel( 'async () => {};' );
+	it( 'does not transform ES2017 non-modules features', () => {
+		const asyncSyntax = 'async () => {};';
+
+		testBabel( asyncSyntax, asyncSyntax );
+	} );
+
+	it( 'does transform ES2018 non-modules features', () => {
+		const spreadObject = 'const { a, ...rest } = { a: 1, b: 2, c: 3 };';
+
+		testBabel( spreadObject );
 	} );
 
 	it( 'does not transform imports or exports', () => {

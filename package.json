@@ -4,7 +4,7 @@
   "description": "Evergreen Babel preset for rollup",
   "main": "index.js",
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=8.0.0"
   },
   "scripts": {
     "lint": "eslint index.js test.js",
@@ -51,18 +51,18 @@
     }
   },
   "devDependencies": {
-    "@comandeer/eslint-config": "^0.1.0",
-    "@comandeer/is-ci": "^1.0.0",
-    "chai": "^4.1.2",
-    "commitplease": "^3.1.0",
+    "@comandeer/eslint-config": "^0.2.0",
+    "@comandeer/is-ci": "^2.0.0",
+    "chai": "^4.2.0",
+    "commitplease": "^3.2.0",
     "cz-conventional-changelog": "^2.1.0",
-    "eslint": "^5.0.0",
-    "husky": "^2.3.0",
+    "eslint": "^6.0.1",
+    "husky": "^2.7.0",
     "in-publish": "^2.0.0",
-    "mocha": "^6.0.0"
+    "mocha": "^6.1.4"
   },
   "dependencies": {
-    "@babel/core": "^7.0.0",
-    "@babel/preset-env": "^7.0.0"
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5"
   }
 }
