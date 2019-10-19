@@ -51,18 +51,18 @@
     }
   },
   "devDependencies": {
-    "@comandeer/eslint-config": "^0.2.1",
+    "@comandeer/eslint-config": "^0.2.2",
     "@comandeer/is-ci": "^2.0.0",
     "chai": "^4.2.0",
     "commitplease": "^3.2.0",
-    "cz-conventional-changelog": "^3.0.1",
-    "eslint": "^6.0.1",
-    "husky": "^3.0.1",
+    "cz-conventional-changelog": "^3.0.2",
+    "eslint": "^6.5.1",
+    "husky": "^3.0.9",
     "in-publish": "^2.0.0",
-    "mocha": "^6.2.0"
+    "mocha": "^6.2.2"
   },
   "dependencies": {
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5"
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3"
   }
 }
