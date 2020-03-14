@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [7.0.0] – 2020-03-14
+### Removed
+* [#36] **BREAKING CHANGE**: support for Node 8.
+
 ## [6.0.0] – 2019-06-29
 ### Added
 * [#28] Support for Node 12.
@@ -44,7 +48,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 [#16]: https://github.com/Comandeer/babel-preset-rollup/issues/16
 [#18]: https://github.com/Comandeer/babel-preset-rollup/issues/18
 [#28]: https://github.com/Comandeer/babel-preset-rollup/issues/28
+[#36]: https://github.com/Comandeer/babel-preset-rollup/issues/36
 
+[6.0.0]: https://github.com/Comandeer/babel-preset-rollup/compare/v6.0.0...v7.0.0
 [6.0.0]: https://github.com/Comandeer/babel-preset-rollup/compare/v5.0.0...v6.0.0
 [5.0.0]: https://github.com/Comandeer/babel-preset-rollup/compare/v4.0.0...v5.0.0
 [4.0.0]: https://github.com/Comandeer/babel-preset-rollup/compare/v3.0.0...v4.0.0
